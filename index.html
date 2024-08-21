@@ -7,7 +7,7 @@
         <title>Dynamisk Lista</title>
     </head>
 
-    <body>
+    <body style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
         <header>
             <h1>Min dynamiska lista</h1>
         </header>
@@ -16,18 +16,14 @@
                 <div>
                     <input type="text" id="text-input" name="text-input">
                     <button type="submit" id="submit-button" name="submit-button">Add</button>
-                    <small id="warning"></small>
+                    <small id="warning" style="color: red"></small>
                 </div>
                 <small>Click on the items to delete them</small>
                 <div>
-                    <ul id="item-list" name="item-list">
+                    <ul style="list-style: none; cursor: pointer; text-align:left; font-size: 23px; font-weight: bold; gap: 20px;" id="item-list" name="item-list">
                     </ul>
                 </div>
             </form>
-
-
-
-
         </main>
         <footer>
 
