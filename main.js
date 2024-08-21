@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		event.preventDefault();
 		if (currentTextElement.value !== "") {
 			const li = document.createElement("li");
-			li.classList.add("list-item");
 			li.id = counter++;
 			li.innerText = currentTextElement.value;
 			li.addEventListener("click", function () {
